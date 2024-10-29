@@ -7,7 +7,8 @@ public class Duplicados {
             for (int j = i + 1; j < num.length; j++) {
 
                 if (num[i] == num[j]) {
-                    res = num[i] + " ";
+                    res += num[i] + " ";
+                    break;
                 }
 
             }
